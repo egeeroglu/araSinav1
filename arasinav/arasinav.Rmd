@@ -1,0 +1,52 @@
+---
+title: "Hava Kirliliğini Etkileyen Faktörler"
+author: 
+  - Ege Eroğlu[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 19080214, [Github Repo](https://github.com/egeeroglu/araSinav1)
+
+
+
+# Giriş
+Ülkemizde hava kirliliği, özellikle kış aylarında artan doğal gaz kullanımıyla insan sağlığı için ciddi bir tehdit oluşturmaktadır. Bu çalışmada iktisadi sektörlerin hava emisyonu üzerindeki etkisi araştırılmak istenmektedir. Araştırmayı destelemek için 2019-2020 yılı TÜİK verileri kullanılmıştır. Hangi iktisadi faaliyetin hava kirliliğine ne denli etkisi olduğu verilerle tespit edilirse kirliliğin doğuracağı olumsuz sonuçlara çözüm bulmak da o denli kolaylaşacaktır.
+
+
+## Çalışmanın Amacı
+Türkiye'de hava kirliliğine neden olan sektörleri belirleyip, bu sektörlerin hangi oranda ve hangi emisyon çeşitleriyle hava kirliliğine sebep olduklarını analiz edip, sorunlara çözüm üretmektir.
+
+## Literatür 
+İktisadi sektörlerin kâr etme isteğinin artmasıyla hava kirliliğinin artması bir paralellik göstermektedir. Firmalar daha çok kazanmak içgüdüsüyle hava kirliliğine yol açtığı dışsallıkları göz ardı etmektedir. Kârlılık isteyen sektörlerin yanında kış ayının da gelmesi Türkiye'deki hava kirliliğinin azımsanmayacak boyutlara ulaşmasına yol açmıştır[@sumer2014hava].Bu kirliliğin azaltıması için de kirliliğin ne çeşitte ve hangi gazlar yoluyla oluştuğu anlaşılmalıdır ki bu en bariz fosil yakıt kullanımıyla açıklanabilir[@bernstein2004health].Fosil yakıt kullanımı sonucunda da zararı en çok bilinen karbondioksit gazı oluşmaktadır.Atmosferde çoğunlukla oksitlenmiş formunda olan CO2 şeklinde bulunur.Normalde ekosistem karbon dengesini kendine ait bir döngü ile sağlarken fosil yakıt, sera gazı gibi maddeler bu döngüyü sekteye uğratmaktadır[@civelekouglu2018ulacsim].En gelişmiş sanayilerden biri olan Çin, bu problemi en çok yaşayan ülkelerin başında gelmektedir.Yaşanılan problemler onları çeşitli önlemler almaya itmiştir.Devlet tarafından bahsi geçen ekonomiyi araç kullanarak uygulanan önlem ise karbon vergisidir[@liu2014comparative].
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
